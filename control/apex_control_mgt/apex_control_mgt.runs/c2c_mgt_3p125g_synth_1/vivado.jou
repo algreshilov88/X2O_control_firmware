@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jul  1 10:47:23 2022
+# Process ID: 2732
+# Current directory: /home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/c2c_mgt_3p125g_synth_1
+# Command line: vivado -log c2c_mgt_3p125g.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source c2c_mgt_3p125g.tcl
+# Log file: /home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/c2c_mgt_3p125g_synth_1/c2c_mgt_3p125g.vds
+# Journal file: /home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/c2c_mgt_3p125g_synth_1/vivado.jou
+#-----------------------------------------------------------
+source c2c_mgt_3p125g.tcl -notrace

@@ -1,0 +1,373 @@
+
+*** Running vivado
+    with args -log c2c_mgt_3p125g.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source c2c_mgt_3p125g.tcl
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source c2c_mgt_3p125g.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/greshilov/vivado/JTAG_DMA/control/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top c2c_mgt_3p125g -part xc7z015clg485-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z015'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z015'
+INFO: [Device 21-403] Loading part xc7z015clg485-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9126
+WARNING: [Synth 8-2507] parameter declaration becomes local in c2c_mgt_3p125g_common with formal parameter declaration list [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common.v:94]
+WARNING: [Synth 8-2507] parameter declaration becomes local in c2c_mgt_3p125g_common with formal parameter declaration list [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common.v:95]
+WARNING: [Synth 8-2507] parameter declaration becomes local in c2c_mgt_3p125g_common with formal parameter declaration list [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common.v:96]
+WARNING: [Synth 8-2507] parameter declaration becomes local in c2c_mgt_3p125g_common with formal parameter declaration list [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common.v:97]
+WARNING: [Synth 8-2507] parameter declaration becomes local in c2c_mgt_3p125g_common with formal parameter declaration list [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common.v:98]
+WARNING: [Synth 8-2507] parameter declaration becomes local in c2c_mgt_3p125g_common with formal parameter declaration list [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common.v:99]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2548.285 ; gain = 0.000 ; free physical = 10325 ; free virtual = 85351
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g.v:72]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_support' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_support.v:70]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_GT_USRCLK_SOURCE' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_gt_usrclk_source.v:68]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS_GTE2' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:51811]
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS_GTE2' (1#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:51811]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_CLOCK_MODULE' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/support/c2c_mgt_3p125g_clock_module.v:69]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (2#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:59963]
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (3#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:59963]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_CLOCK_MODULE' (4#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/support/c2c_mgt_3p125g_clock_module.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_GT_USRCLK_SOURCE' (5#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_gt_usrclk_source.v:68]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_cpll_railing' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_cpll_railing.v:68]
+INFO: [Synth 8-6157] synthesizing module 'BUFH' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1319]
+INFO: [Synth 8-6155] done synthesizing module 'BUFH' (6#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1319]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_cpll_railing' (7#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_cpll_railing.v:68]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_common' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common.v:69]
+INFO: [Synth 8-6157] synthesizing module 'GTPE2_COMMON' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:36468]
+INFO: [Synth 8-6155] done synthesizing module 'GTPE2_COMMON' (8#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:36468]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_common' (9#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common.v:69]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_common_reset' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common_reset.v:74]
+INFO: [Synth 8-226] default block is never used [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common_reset.v:121]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_common_reset' (10#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_common_reset.v:74]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_init' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_init.v:71]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_multi_gt' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_multi_gt.v:71]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_GT' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_gt.v:71]
+INFO: [Synth 8-6157] synthesizing module 'GTPE2_CHANNEL' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:35766]
+INFO: [Synth 8-6155] done synthesizing module 'GTPE2_CHANNEL' (11#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:35766]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_gtrxreset_seq' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_gtrxreset_seq.v:72]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_sync_block' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_sync_block.v:78]
+INFO: [Synth 8-6157] synthesizing module 'FD' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27596]
+INFO: [Synth 8-6155] done synthesizing module 'FD' (12#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27596]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_sync_block' (13#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_sync_block.v:78]
+INFO: [Synth 8-226] default block is never used [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_gtrxreset_seq.v:179]
+INFO: [Synth 8-226] default block is never used [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_gtrxreset_seq.v:240]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_gtrxreset_seq' (14#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_gtrxreset_seq.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_GT' (15#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_gt.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_multi_gt' (16#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_multi_gt.v:71]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_TX_STARTUP_FSM' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_tx_startup_fsm.v:94]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_TX_STARTUP_FSM' (17#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_tx_startup_fsm.v:94]
+INFO: [Synth 8-6157] synthesizing module 'c2c_mgt_3p125g_RX_STARTUP_FSM' [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_rx_startup_fsm.v:94]
+INFO: [Synth 8-6157] synthesizing module 'FDP' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27764]
+INFO: [Synth 8-6155] done synthesizing module 'FDP' (18#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27764]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_RX_STARTUP_FSM' (19#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g/example_design/c2c_mgt_3p125g_rx_startup_fsm.v:94]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_init' (20#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_init.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g_support' (21#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_support.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'c2c_mgt_3p125g' (22#1) [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g.v:72]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2548.285 ; gain = 0.000 ; free physical = 10856 ; free virtual = 85897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2548.285 ; gain = 0.000 ; free physical = 10831 ; free virtual = 85878
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2548.285 ; gain = 0.000 ; free physical = 10830 ; free virtual = 85877
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2548.285 ; gain = 0.000 ; free physical = 10693 ; free virtual = 85743
+INFO: [Netlist 29-17] Analyzing 545 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.gen/sources_1/ip/c2c_mgt_3p125g/c2c_mgt_3p125g.xdc] for cell 'inst'
+Parsing XDC File [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/c2c_mgt_3p125g_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/c2c_mgt_3p125g_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2612.184 ; gain = 0.000 ; free physical = 10569 ; free virtual = 85644
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 544 instances were transformed.
+  FD => FDRE: 528 instances
+  FDP => FDPE: 16 instances
+
+INFO: [Timing 38-2] Deriving generated clocks
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.19 . Memory (MB): peak = 2612.184 ; gain = 0.000 ; free physical = 10459 ; free virtual = 85535
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 10616 ; free virtual = 85725
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z015clg485-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 10611 ; free virtual = 85719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/c2c_mgt_3p125g_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 10535 ; free virtual = 85643
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'c2c_mgt_3p125g_gtrxreset_seq'
+INFO: [Synth 8-802] inferred FSM for state register 'tx_state_reg' in module 'c2c_mgt_3p125g_TX_STARTUP_FSM'
+INFO: [Synth 8-802] inferred FSM for state register 'rx_state_reg' in module 'c2c_mgt_3p125g_RX_STARTUP_FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                         00000010 |                              000
+                  drp_rd |                         10000000 |                              001
+            wait_rd_data |                         01000000 |                              010
+                   wr_16 |                         00100000 |                              011
+           wait_wr_done1 |                         00010000 |                              100
+           wait_pmareset |                         00001000 |                              101
+                   wr_20 |                         00000100 |                              110
+           wait_wr_done2 |                         00000001 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'c2c_mgt_3p125g_gtrxreset_seq'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                             0000 |                             0000
+       ASSERT_ALL_RESETS |                             0001 |                             0001
+       WAIT_FOR_PLL_LOCK |                             0010 |                             0010
+       RELEASE_PLL_RESET |                             0011 |                             0011
+       WAIT_FOR_TXOUTCLK |                             0100 |                             0100
+      RELEASE_MMCM_RESET |                             0101 |                             0101
+       WAIT_FOR_TXUSRCLK |                             0110 |                             0110
+         WAIT_RESET_DONE |                             0111 |                             0111
+      DO_PHASE_ALIGNMENT |                             1000 |                             1000
+          RESET_FSM_DONE |                             1001 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tx_state_reg' using encoding 'sequential' in module 'c2c_mgt_3p125g_TX_STARTUP_FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                             0000 |                             0000
+       ASSERT_ALL_RESETS |                             0001 |                             0001
+       WAIT_FOR_PLL_LOCK |                             0010 |                             0010
+       RELEASE_PLL_RESET |                             0011 |                             0011
+    VERIFY_RECCLK_STABLE |                             0100 |                             0100
+      RELEASE_MMCM_RESET |                             0101 |                             0101
+       WAIT_FOR_RXUSRCLK |                             0110 |                             0110
+         WAIT_RESET_DONE |                             0111 |                             0111
+      DO_PHASE_ALIGNMENT |                             1000 |                             1000
+      MONITOR_DATA_VALID |                             1001 |                             1001
+                FSM_DONE |                             1010 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rx_state_reg' using encoding 'sequential' in module 'c2c_mgt_3p125g_RX_STARTUP_FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 10798 ; free virtual = 85931
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 4     
+	   2 Input    8 Bit       Adders := 25    
+	   2 Input    2 Bit       Adders := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               96 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 8     
+	                8 Bit    Registers := 25    
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 220   
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   2 Input   16 Bit        Muxes := 8     
+	   8 Input   16 Bit        Muxes := 4     
+	   2 Input    9 Bit        Muxes := 4     
+	   8 Input    8 Bit        Muxes := 4     
+	   2 Input    8 Bit        Muxes := 28    
+	  10 Input    4 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 40    
+	  11 Input    4 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 108   
+	   8 Input    1 Bit        Muxes := 16    
+	  10 Input    1 Bit        Muxes := 68    
+	  11 Input    1 Bit        Muxes := 76    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 160 (col length:60)
+BRAMs: 190 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 10046 ; free virtual = 85234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 10012 ; free virtual = 85303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:37 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 9964 ; free virtual = 85258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:39 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 9878 ; free virtual = 85213
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:42 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 9844 ; free virtual = 85219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:42 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 9834 ; free virtual = 85209
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:43 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 10063 ; free virtual = 85448
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:43 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 10047 ; free virtual = 85432
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:43 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 9952 ; free virtual = 85341
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:43 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 9933 ; free virtual = 85322
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-----------------------+------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name            | RTL Name                                                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-----------------------+------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|c2c_mgt_3p125g_support | cpll_railing_pll0_q0_clk1_refclk_i/cpllreset_wait_reg[127] | 128    | 1     | NO           | NO                 | YES               | 0      | 4       | 
+|c2c_mgt_3p125g_support | cpll_railing_pll0_q0_clk1_refclk_i/cpllpd_wait_reg[95]     | 96     | 1     | NO           | NO                 | YES               | 0      | 3       | 
++-----------------------+------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     4|
+|2     |BUFH          |     1|
+|3     |CARRY4        |   140|
+|4     |GTPE2_CHANNEL |     4|
+|5     |GTPE2_COMMON  |     1|
+|6     |IBUFDS_GTE2   |     1|
+|7     |LUT1          |   177|
+|8     |LUT2          |   145|
+|9     |LUT3          |   151|
+|10    |LUT4          |   126|
+|11    |LUT5          |   340|
+|12    |LUT6          |   268|
+|13    |MMCME2_ADV    |     1|
+|14    |SRLC32E       |     7|
+|15    |FD            |   384|
+|16    |FDCE          |   188|
+|17    |FDP           |     8|
+|18    |FDPE          |     4|
+|19    |FDRE          |   784|
+|20    |FDSE          |    52|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:43 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 9922 ; free virtual = 85311
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 2612.184 ; gain = 0.000 ; free physical = 9958 ; free virtual = 85353
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:43 . Memory (MB): peak = 2612.184 ; gain = 63.898 ; free physical = 9955 ; free virtual = 85352
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2612.184 ; gain = 0.000 ; free physical = 10250 ; free virtual = 85649
+INFO: [Netlist 29-17] Analyzing 533 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2612.184 ; gain = 0.000 ; free physical = 9762 ; free virtual = 85180
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 392 instances were transformed.
+  FD => FDRE: 384 instances
+  FDP => FDPE: 8 instances
+
+Synth Design complete, checksum: 7d56c76a
+INFO: [Common 17-83] Releasing license: Synthesis
+73 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:49 . Memory (MB): peak = 2612.184 ; gain = 64.031 ; free physical = 9975 ; free virtual = 85396
+INFO: [Common 17-1381] The checkpoint '/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/c2c_mgt_3p125g_synth_1/c2c_mgt_3p125g.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP c2c_mgt_3p125g, cache-ID = 3cf4cecf3f7718c8
+INFO: [Common 17-1381] The checkpoint '/home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/c2c_mgt_3p125g_synth_1/c2c_mgt_3p125g.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file c2c_mgt_3p125g_utilization_synth.rpt -pb c2c_mgt_3p125g_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jul  1 10:48:29 2022...

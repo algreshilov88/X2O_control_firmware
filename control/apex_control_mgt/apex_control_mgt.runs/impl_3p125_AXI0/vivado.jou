@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jul  1 11:05:48 2022
+# Process ID: 24556
+# Current directory: /home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/impl_3p125_AXI0
+# Command line: vivado -log apex_control_mgt_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source apex_control_mgt_top.tcl -notrace
+# Log file: /home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/impl_3p125_AXI0/apex_control_mgt_top.vdi
+# Journal file: /home/greshilov/vivado/JTAG_DMA/control/apex_control_mgt/apex_control_mgt.runs/impl_3p125_AXI0/vivado.jou
+#-----------------------------------------------------------
+source apex_control_mgt_top.tcl -notrace
